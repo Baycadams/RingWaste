@@ -1,0 +1,36 @@
+# RingWaste Environment Variables
+# Copy this file to .env and fill in your values
+
+# API Configuration
+VITE_API_URL=https://api.ringwaste.ng
+VITE_API_KEY=your_api_key_here
+
+# Analytics
+VITE_GA_TRACKING_ID=G-XXXXXXXXXX
+VITE_FB_PIXEL_ID=your_facebook_pixel_id
+
+# Email Service (EmailJS)
+VITE_EMAILJS_SERVICE_ID=your_emailjs_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_emailjs_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_emailjs_public_key
+
+# WhatsApp
+VITE_WHATSAPP_NUMBER=2347013786423
+
+# Social Media
+VITE_FACEBOOK_URL=https://facebook.com/ringwaste
+VITE_TWITTER_URL=https://twitter.com/ringwaste
+VITE_INSTAGRAM_URL=https://instagram.com/ringwaste
+VITE_LINKEDIN_URL=https://linkedin.com/company/ringwaste
+
+# Payment Gateway (Paystack/Flutterwave)
+VITE_PAYSTACK_PUBLIC_KEY=pk_test_xxxxxxxxxxxxx
+VITE_FLUTTERWAVE_PUBLIC_KEY=FLWPUBK_TEST-xxxxxxxxxxxxx
+
+# Map API (if using Google Maps)
+VITE_GOOGLE_MAPS_API_KEY=your_google_maps_key
+
+# Feature Flags
+VITE_ENABLE_PORTAL=true
+VITE_ENABLE_DASHBOARD=true
+VITE_ENABLE_BLOG=true
